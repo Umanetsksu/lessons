@@ -1,0 +1,112 @@
+
+/*manual*/
+@import url("fonts.css");
+
+/*Google Fonts */ 
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:600,700&display=swap");
+
+@import url("reset.css");
+
+body{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(190, 19, 127, 0.716);
+    text-align: left;
+}
+[class*="title-"]{
+	font-family: "Causten", sans-serif;
+    font-size: 24px;
+    color: black;
+    font-weight: 600;
+    text-transform:uppercase;
+}
+.li-1{
+    font-style: italic;
+    color: blue;
+    text-decoration: underline;
+}
+.content-block{
+    text-align: center;
+    color: black;
+    font-size: 16px;
+}
+.content{
+    font-weight: 600;
+}
+.article-name{
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    text-shadow: 2px 2px 6px #000;
+    word-spacing: 5px;
+    white-space: nowrap;
+}
+p{
+    letter-spacing: -1px;
+}
+
+span{
+    color: #3e0048;
+    text-shadow: 1px 1px 2px #ff00ea;
+}
+
+/* 2 part */
+
+.part-hw{
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    text-shadow: 2px 2px 6px #000;
+    word-spacing: 5px;
+    white-space: nowrap;
+}
+
+/* занесла 2 скріна з дз в один дів, щоб не повторювати одні й ті самі значення */
+.body-2{ 
+    color: #7D7D7D;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.87;
+    text-align: left;
+    }
+
+.part-1{
+color: #37393F;
+font-family: Poppins;
+font-size: 30px;
+font-weight: 600;
+line-height: 1.27;
+}
+
+.part-2{
+color: #6B77E5;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 600;
+line-height: 1.27;
+}
+
+.part-project{
+color: #37393F;
+font-family: Poppins;
+font-size: 40px;
+font-weight: 700;
+line-height: 1.27;
+}
+
+.li-2,
+.li-3 { 
+    text-indent: 40px;
+    font-family: Inter;
+}
+
+/* нехай буде рожевий як боді */
+.footer-p{
+font-size: 14px;
+font-weight: 400;
+text-align: center;
+}
+
