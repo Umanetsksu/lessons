@@ -1,0 +1,287 @@
+@import url("fonts.css");
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Infant:700&display=swap");
+@import url("reset.css");
+
+.backgroung-img{
+    margin-bottom: 20px;
+    height: 100px;
+    background-image: url(../img/215014432-small-plant-growing-in-the-rain-ecology-concept-3d-rendering.jpeg);
+    background-repeat: repeat-x;
+}
+
+.backgroung-backgroung{
+    margin-bottom: 20px;
+    height: 100px;
+    background-image: linear-gradient(90deg, rgba(249,0,124,1) 0%, rgba(250,147,33,1) 53%);
+}
+
+.position{
+    height: 500px;
+    background-image: url(../img/215014432-small-plant-growing-in-the-rain-ecology-concept-3d-rendering.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 20px;
+    background-color: blueviolet;
+}
+
+
+.fixed{
+    margin-bottom: 20px;
+    background: rgb(157, 255, 0) url(../img/fixed.png) center / 10% no-repeat fixed;
+}
+
+.task-1{
+    box-sizing: border-box;
+    max-width: 1260px;
+    margin:0 auto;
+    vertical-align: middle;
+    margin-bottom: 50px;
+}
+
+.img-1{
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    margin-right: -4px;
+    width: 614px;
+    height: 640px;
+    background: url(../img/unsplash_bBiuSdck8tU.png) center / cover no-repeat;
+    border-radius: 10px 0 0 10px;
+}
+
+.img-2{
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    width: 614px;
+    height: 640px;
+    background: url(../img/Rectangle\ 13.png) center / cover no-repeat;
+    border-radius: 0 10px 10px 0;
+}
+
+.task-1-h1{
+    color: #FFF;
+    font-family: "Core Sans C";
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 50px; /* 147.059% */
+    letter-spacing: 0.208px;
+}
+
+.task-1-h5{
+    color: #FFF;
+    font-family: Causten;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+
+.task-1-h1{
+    padding: 183px 74px 0 74px;
+    margin-bottom: 30px;
+}
+
+.task-1-h5{
+    padding: 0 74px 0 74px;
+    margin-bottom: 50px;
+}
+
+.button{
+    display: inline-block;
+    padding-left: 74px;
+}
+
+
+/* TASK 2 */
+.whitecollar{
+    max-width: 720px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.squad{
+    background-color: #40DDB6;
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    margin: 0 auto;
+    margin-right: 6px;
+}
+
+.squad-text{
+    display: inline-block;
+    margin: 0 auto;
+    color: #37393F;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}  
+
+.whitecollar h2{
+    height: 96px;
+    margin-bottom: 20px;
+    color: #37393F;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.21; /* 48.4px */
+}
+
+.whitecollar p{
+    color: #7D7D7D;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.47; /* 26.314px */
+    width: 673px;
+    margin-bottom: 15px;
+}
+
+.icon-1{
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.list li{
+    color: #37393F;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.65;
+    margin-bottom: 23px;
+    background: url(../img/Vector.svg) 0 3px no-repeat;
+    padding-left: 35px;
+}
+
+.experience {
+    background: url(../img/icon.svg) 32px 32px no-repeat;
+    display: inline-block;
+    margin: 0 auto;
+    margin-right: 21px;
+    width: 296px;
+    border: 1px solid #E3E3E3;
+    
+}
+
+.experience h3{
+    color: #37393F;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 90px;
+    padding-top: 32px;
+    line-height: 1.35;
+}
+
+.experience p{
+    padding-left: 90px;
+    color: #7D7D7D;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.35;
+}
+
+
+.awards{
+    width: 296px;
+    background: url(../img/icon_2.svg) 32px 32px no-repeat;
+    display: inline-block;
+    margin: 0 auto;
+    border: 1px solid #E3E3E3;
+    margin-bottom: 37px;
+}
+
+.awards h3{
+    color: #37393F;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.35;
+    padding-left: 90px;
+    padding-top: 32px;
+}
+
+.awards p{
+    padding-left: 90px;
+    color: #7D7D7D;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.35;
+}
+
+.task-2{
+    width: 1240px;
+    margin: 0 auto;
+    font-family: Causten;
+}
+
+.task-2 p{
+    font-family: Causten;
+    padding-left: 21px;
+    color: #807D7E;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 33.5px; /* 167.5% */
+    letter-spacing: 0.4px;
+    margin-bottom: 20px; /* one time 25px?*/
+    width: 1219px;
+}
+
+.squad-2{
+    width: 6px;
+    height: 28px;
+    border-radius: 10px;
+    background: #8A33FD;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
+}
+
+.squad-text{
+    display: inline-block;
+    vertical-align: top;
+    color: #3C4242;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 33.5px;
+    letter-spacing: 0.56px;
+    margin-bottom: 30px;
+}
+
+.squad-text h3{
+    font-family: "Core Sans C";
+}
+
+.sub-1,
+.sub-2,
+.sub-3{
+    font-family: "Core Sans C";
+    padding-left: 21px;
+    color: #807D7E;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 33.5px;
+    letter-spacing: 0.4px;
+    margin-bottom: 25px;
+}
+
+.task-4 span{
+    font-weight: 700;
+}
+
+.task-4{
+    margin-bottom: 100px;
+}
+
+
+
+
+
